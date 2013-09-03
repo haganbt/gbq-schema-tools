@@ -6,7 +6,9 @@
     "start": "node app"
   },
   "dependencies": {
-  	"google-bigquery":"0.1.1"
+  	"google-bigquery":"0.1.1",
+  	"express": "3.3.x",
+    "jade": "0.34.x"
   },
   "devDependencies": {
   },
