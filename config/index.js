@@ -1,7 +1,10 @@
 var config = {
     local: {
         mode: 'local',
-        port: 3000
+        port: 3000,
+        bigquery: {
+        	iss: ''
+        }
     },
     staging: {
         mode: 'staging',
