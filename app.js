@@ -29,37 +29,3 @@ app.get('/', routes.index);
 http.createServer(app).listen(config.port, function () {
   console.log('Express server listening on port ' + config.port);
 });
-
-
-
-
-
-
-/*
-var config = require('./config')();
-
-var bigquery = require('google-bigquery');
-var fs = require('fs');
-    
-    var client = bigquery({
-        "iss": '554267902492@developer.gserviceaccount.com',
-        "key": fs.readFileSync('file.pem', 'utf8')
-    });
-
-
- client.getProjects(function (err, projs) {
-    var projId = projs.projects[0].id;
-    client.datasets.getAll(projId, function (err, datasets) {
-        //get the first.
-        var first = datasets.datasets[0].datasetReference.datasetId;
-        console.log(first);
-        client.tables.getAll(first, projId, function (err, tables) {
-					console.log('****' + JSON.stringify(tables));
-        });
-    });
-});
-
-*/
-
-
-
