@@ -1,0 +1,17 @@
+{
+  "name": "gbq-schema-tools",
+  "version": "0.0.1",
+  "private": false,
+  "scripts": {
+    "start": "node app"
+  },
+  "dependencies": {
+  	"google-bigquery":"0.1.1"
+  },
+  "devDependencies": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/haganbt/gbq-schema-tools.git"
+  }
+}

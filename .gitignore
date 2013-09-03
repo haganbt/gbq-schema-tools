@@ -1,3 +1,7 @@
+.project
+*.p12
+node_modules
+*.pem
 lib-cov
 *.seed
 *.log
